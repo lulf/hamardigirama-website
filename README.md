@@ -1,3 +1,9 @@
+# Hamar Digirama Website
+
+Hamar Digirama is a volunteer organization aiming to create an informal professional gathering point for developers, designers, and others who are passionate about people and technology in the Hamar area.
+
+q
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

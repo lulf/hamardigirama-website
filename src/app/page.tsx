@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import logo from '../../public/Hamar_digirama_logo_anim_once_600x306.gif';
 import Link from "next/link";
 import {getAllEvents} from "@/lib/events-api";
+import {HAMAR_DIGIRAMA_GIF} from "@/lib/public-assets";
 
 export default function Home() {
 
@@ -13,7 +13,9 @@ export default function Home() {
             <div className="hero-content flex-col">
                 <Image
                     className="w-60 sm:w-80"
-                    src={logo}
+                    width={1000}
+                    height={1000}
+                    src={HAMAR_DIGIRAMA_GIF}
                     alt="Hamar Digirama"
                 />
                 <div className="max-w-md text-center prose">
